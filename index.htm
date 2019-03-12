@@ -228,7 +228,7 @@
 			</ul>
 
 			<br />
-			<!-- Early -->
+			<!-- Early 
 			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 				<input type="hidden" name="cmd" value="_s-xclick">
 				<input type="hidden" name="hosted_button_id" value="K82YEXN4K8PQN">
@@ -241,11 +241,11 @@
 				</div>
 				<div class="form-group">
 					<input type="hidden" name="on1" value="Name of Person Attending SERR">Name of Person Attending SERR
-					<input type="text" class="form-control" name="os1" maxlength="200" required="">
+					<input type="text" class="form-control" name="os1" maxlength="200" required="required">
 				</div>
 				<div class="form-group">
 					<input type="hidden" name="on2" value="Univ Email of Person Attending">Univ Email of Person Attending
-					<input type="text" class="form-control" name="os2" maxlength="200" required="">
+					<input type="email" class="form-control" name="os2" maxlength="200" required="required">
 				</div>
 				<input type="hidden" name="currency_code" value="USD">
 
@@ -253,27 +253,28 @@
 					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 				</div>
+				<p><span class="hidden-xs">Please note that PayPal is accepted by thousands of businesses worldwide and is the preferred payment method on eBay.com. PayPal uses state-of-the-art fraud prevention to help stop cyber crime and protect your transaction.</span></p>
 			</form>
+			-->
 
-
-			<!-- Late Payment Form
-			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<!-- Late Payment Form -->
+			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 				<input type="hidden" name="cmd" value="_s-xclick">
 				<input type="hidden" name="hosted_button_id" value="GX8QQJNS2MZDL">
 				<input type="hidden" name="on0" value="SERR Conference Late Registration"><b>SERR Conference Registration</b>
 				<div class="form-group">
 					<select name="os0" class="form-control">
-						<option value="Faculty/Staff Late Registration">Faculty/Staff Registration $125.00 USD</option>
-						<option value="Student/Retired Late Registration">Student/Retired Registration $90.00 USD</option>
+						<option value="Faculty/Staff Late Registration">Faculty/Staff Late Registration $150.00 USD</option>
+						<option value="Student/Retired Late Registration">Student/Retired Late Registration $115.00 USD</option>
 					</select>
 				</div>
 				<div class="form-group">
 					<input class="form-control" type="hidden" name="on1" value="Name of Person Attending SERR"><b>Name of Person Attending SERR</b>
-					<input class="form-control" type="text" name="os1" maxlength="200">
+					<input class="form-control" type="text" name="os1" maxlength="200" required="required">
 				</div>
 				<div class="form-group">
 					<input type="hidden" name="on2" value="Univ Email of Person Attending"><b>Univ Email of Person Attending</b>
-					<input class="form-control" type="text" name="os2" maxlength="200">
+					<input class="form-control" type="email" name="os2" maxlength="200" required="required">
 				</div>
 				<input type="hidden" name="currency_code" value="USD">
 				<div class="pull-right">
@@ -282,7 +283,7 @@
 				</div>
 				<p><span class="hidden-xs">Please note that PayPal is accepted by thousands of businesses worldwide and is the preferred payment method on eBay.com. PayPal uses state-of-the-art fraud prevention to help stop cyber crime and protect your transaction.</span></p>
 			</form>
-			-->
+			
 		
 		</div>
 	</section>
