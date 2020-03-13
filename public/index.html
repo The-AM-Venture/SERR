@@ -69,27 +69,23 @@
 	<!-- End navbar -->
 
 
-
 	<!-- First page header -->
 	<header>
 		<div class="header-content" id="page-top">
+            <div class="alert alert-danger" role="alert">
+                <strong><a href="#about">Click here to see updates regarding COVID-19 and SERR</a></strong>
+            </div>
 			<div class="header-content-inner shadow">
 				<br />
-				<br />
-				<h3><em>
-
-					<!-- # of conferences -->
-					42nd Annual</em></h3>
+                <br />
+                
+				<h3><em>42nd Annual</em></h3><!-- # of conferences -->
 
 				<h1 id="homeHeading">Southeast Environment and Recreation Research Conference</h1>
 				<br />
 
-				<!-- Date -->
-				<h2>March 29th - March 31st, 2020
-
-					<!-- Location -->
-					<br />Asheville, NC
-				</h2>
+				<!-- Date & Location -->
+				<h2>March 29th - March 31st, 2020<br />Asheville, NC</h2>
 
 
 				<br />
@@ -103,33 +99,37 @@
 
 	<a class="white" href="https://forms.gle/bPMRnfBBd5uGNNN89"><button type="button" class="btn btn-primary floating-btn">Feedback?</button></a>
 
+    <script>
+        $(window).on('load',function(){
+            $('#myModal').modal('show');
+        });
+    </script>
+
 
 	<!-- Important Information and description about SERR -->
 	<section id="about">
 		<div class="container">
+            <h1>Important Information:</h1>
+            
+            <div class="alert alert-danger" role="alert">
+                COVID-19 Updates
+            </div>
+            <br />
+            <ol>
+                <li class="lead">3/13/2020 - We’ve contacted our hotel to see what they’re going to bill us if we cancel. This will dictate what portion of paid registration fees we can reimburse. Everyone will need to cancel their own room reservations. The conference has not officially been cancelled yet but we are in the process of making those decisions and will update our website with that information shortly.</li>
+            </ol>
 
-			<h1>Important Information:</h1>
+            <hr />
 
-			<h3>We invite your participation in the
-
-				<!-- # of conferences -->
-				42nd Annual Southeast Environment and Recreation Research (SERR) Conference, held in
-
-				<!-- Location -->
-				Asheville, NC.
-
-			</h3>
+			<h3>We invite your participation in the 42nd Annual Southeast Environment and Recreation Research (SERR) Conference, held in Asheville, NC.</h3>
 
 			<p>Graduate and undergraduate students, faculty, agency planners, land managers, and researchers are all strongly encouraged to attend the conference and submit a proposal for an oral or poster presentation.</p>
 
 			<p class="lead"><strong>
-
 			<!-- Abstract deadline -->
-            We are now accepting abstract submissions. The deadline is January 24, 2020 <br />
+            We are not accepting abstract submissions. The deadline has passed<br />
             <a href="#papers">See: Call for Papers</a>
-			
-
-				</strong></p>
+			</strong></p>
 
 			<!-- Yearly Program -->
 			<p>The 2019 Program is available <a target="_blank" href="programs/SERR Conference Program 2019 FINAL V.pdf">here.</a><br /><a target="_blank" href="programs/SERR Conference Program 2019 FINAL V.pdf">SERR Conference Program 2019 FINAL V.pdf</a></p>
