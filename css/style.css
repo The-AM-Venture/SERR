@@ -1,4 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+.sponser-row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+ .sponserimg {
+	max-width: 38%;
+	margin-right: 2%;
+ }
+
+
 html,
 body {
 	height: 100%;
