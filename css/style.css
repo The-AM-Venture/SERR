@@ -16,6 +16,12 @@
 	margin-right: 2%;
  }
 
+ @media (max-width: 768px) {
+	.sponserTimg, .sponserUFimg {
+		max-width: 28%;
+	 }
+	}
+
 html,
 body {
 	height: 100%;
