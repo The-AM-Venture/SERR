@@ -20,10 +20,18 @@
 	margin-right: 2%;
  }
 
+ .logo-md {
+	width:50%
+ }
+
  @media (max-width: 768px) {
 	.sponserTimg, .sponserUFimg {
 		max-width: 28%;
 	 }
+	 .logo-md {
+		width:100%
+	 }
+	
 	}
 
 html,
