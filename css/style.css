@@ -20,8 +20,12 @@
 	margin-right: 2%;
  }
 
- .logo-md {
+ .new-logo {
 	width:50%
+ }
+
+ .logo-md {
+	width:25%
  }
 
  @media (max-width: 768px) {
