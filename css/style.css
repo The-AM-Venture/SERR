@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
+.spons-bg-title-gold {
+	padding: 5px 0;
+	font-weight: bold;
+	background-color: #FACA78;
+	color: #4A6269;
+}
+.spons-bg-title-silver {
+	padding: 5px 0;
+	font-weight: bold;
+	background-color: #68C7C1;
+	color: white;
+}
+.spons-bg-title-bronze {
+	padding: 5px 0;
+	font-weight: bold;
+	background-color: #FACA78;
+	color: #4A6269;
+}
+
 .disable-link {
 	color: #808080;
 }
